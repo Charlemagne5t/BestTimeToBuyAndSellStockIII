@@ -18,7 +18,7 @@ public class SolutionTest {
 
     @Test
     public void maxProfitTest3() {
-        int[] prices = {1, 2, 3, 4, 5};
+        int[] prices = {7, 6, 4, 3, 1};
         int output = 0;
         Assert.assertEquals(output, new Solution().maxProfit(prices));
     }
